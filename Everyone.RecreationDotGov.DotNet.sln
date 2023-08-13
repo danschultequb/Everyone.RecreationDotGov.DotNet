@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everyone.RecreationDotGov.DotNet", "Everyone.RecreationDotGov.DotNet\Everyone.RecreationDotGov.DotNet.csproj", "{487DCFD7-7D0F-4C47-AD4B-A0EDC6EA7362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everyone.RecreationDotGov.DotNet.Tests", "Everyone.RecreationDotGov.DotNet.Tests\Everyone.RecreationDotGov.DotNet.Tests.csproj", "{A0B6E54E-EC6E-418B-93D8-DCDD98371284}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{487DCFD7-7D0F-4C47-AD4B-A0EDC6EA7362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487DCFD7-7D0F-4C47-AD4B-A0EDC6EA7362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487DCFD7-7D0F-4C47-AD4B-A0EDC6EA7362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487DCFD7-7D0F-4C47-AD4B-A0EDC6EA7362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B6E54E-EC6E-418B-93D8-DCDD98371284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B6E54E-EC6E-418B-93D8-DCDD98371284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B6E54E-EC6E-418B-93D8-DCDD98371284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B6E54E-EC6E-418B-93D8-DCDD98371284}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {188A99C4-75FA-4789-8BF8-1299203C1B34}
+	EndGlobalSection
+EndGlobal

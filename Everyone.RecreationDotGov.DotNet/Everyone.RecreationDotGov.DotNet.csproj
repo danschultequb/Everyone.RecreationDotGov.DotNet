@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Everyone</RootNamespace>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Everyone.RecreationDotGov.DotNet</PackageId>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>dev1</VersionSuffix>
+    <Title>Everyone.RecreationDotGov.DotNet</Title>
+    <Company>everyone</Company>
+    <Authors>everyone</Authors>
+    <RepositoryUrl>https://github.com/danschultequb/Everyone.RecreationDotGov.DotNet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <IsPublishable>False</IsPublishable>
+    <IsPackable>True</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Everyone.Base.DotNet" Version="1.0.0-dev8" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
